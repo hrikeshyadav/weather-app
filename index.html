@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="loading"></div>
+    <main id="main">
+        <section>
+            <div class="inline left">
+                <img src="img/calendar.png" class="inline">
+                <p id="date" class="inline"></p>
+            </div>
+            <div class="inline right">
+                <img src="img/location.png" height="30px" class="inline">
+                <div class="inline">
+                    Longitude : <span id="lon"></span>
+                    <br>
+                    Latitude &nbsp;&nbsp; : <span id="lat"></span>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section id="content">
+        <section id="weather">
+            <div class="left">
+                <img src="img/1.png" id="w_img" height="200px">
+                <span id="t_day"></span>
+                <p id="temp_max"></p>
+                <p id="temp_min"></p>
+                <p id="wmo"></p>
+            </div>
+        </section>
+        <section id="weather2">
+            <div class="box">
+                <div>Sunrise : <span id="sun_rise"></span></div>
+                <div>Sunset : <span id="sun_set"></span></div>
+                <div>Wind : <span id="wind"></span></div>
+                <div>Direction : <span id="dir"></span></div>
+            </div>
+        </section>
+        <section id="prediction">
+            <div class="card">
+                <span class="day"></span>
+                <span><span class="temp_max"></span> - <span class="temp_min"></span></span>
+                <span class="wmo"></span>
+                <span><img src="img/1.png" class="w_img"></span>
+            </div>
+            <div class="card">
+                <span class="day"></span>
+                <span><span class="temp_max"></span> - <span class="temp_min"></span></span>
+                <span class="wmo"></span>
+                <span><img src="img/1.png" class="w_img"></span>
+            </div><div class="card">
+                <span class="day"></span>
+                <span><span class="temp_max"></span> - <span class="temp_min"></span></span>
+                <span class="wmo"></span>
+                <span><img src="img/1.png" class="w_img"></span>
+            </div><div class="card">
+                <span class="day"></span>
+                <span><span class="temp_max"></span> - <span class="temp_min"></span></span>
+                <span class="wmo"></span>
+                <span><img src="img/1.png" class="w_img"></span>
+            </div><div class="card">
+                <span class="day"></span>
+                <span><span class="temp_max"></span> - <span class="temp_min"></span></span>
+                <span class="wmo"></span>
+                <span><img src="img/1.png" class="w_img"></span>
+            </div>
+            </div>
+        </section>
+    </section>
+    </main>
+    <script src="app.js"></script>
+</body>
